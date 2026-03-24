@@ -1,335 +1,181 @@
+// ─── HIM SETU INFRASTRUCTURE PRIVATE LIMITED ───────────────────────────────
+
+export const COMPANY = {
+  name: 'HIM SETU',
+  sub: 'INFRASTRUCTURE',
+  fullName: 'Him Setu Infrastructure Private Limited',
+  tagline: 'Building the Himalayan Future',
+  incorporated: '19 March 2026',
+  cin: 'U45200HP2026PTC018742', // placeholder CIN — update with actual
+  email: 'himsetuinfrastructure@gmail.com',
+  address: 'Himachal Pradesh, India',
+  phone: '+91 94182 62674',
+  phone2: '+91 94180 00205',
+}
+
 export const SLIDES = [
   {
-    tag: "Structural Engineering",
-    title: "Building foundations that define skylines",
-    desc: "High-rise structural design, seismic analysis, and long-span systems across South Asia.",
-    bg: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1600&q=80",
+    tag: 'Civil Engineering Works',
+    title: 'Building roads, bridges, and infrastructure across Himachal Pradesh',
+    desc: 'Authorized PWD and IPH contractor with 15+ years of proven government project delivery.',
+    bg: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1600&q=80',
   },
   {
-    tag: "MEP Systems",
-    title: "Engineering every system inside the walls",
-    desc: "Mechanical, electrical, and plumbing consultancy for commercial and hospitality projects.",
-    bg: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1600&q=80",
+    tag: 'Government Contracting',
+    title: 'Trusted partner of PWD and IPH for public infrastructure',
+    desc: 'Director-led execution with rigorous quality assurance and timeline adherence on every project.',
+    bg: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1600&q=80',
   },
   {
-    tag: "Sustainable Design",
-    title: "Designing for the next generation of buildings",
-    desc: "Green building certification, energy modelling, and passive design strategies.",
-    bg: "https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?w=1600&q=80",
+    tag: 'Infrastructure Development',
+    title: 'End-to-end delivery from planning through maintenance',
+    desc: 'Feasibility studies, Detailed Project Reports, construction, supervision, and post-completion maintenance.',
+    bg: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1600&q=80',
   },
   {
-    tag: "Infrastructure",
-    title: "Connecting communities through civil excellence",
-    desc: "Roads, bridges, drainage, and master planning for government and private sectors.",
-    bg: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1600&q=80",
+    tag: 'Consultancy & Advisory',
+    title: 'Technical expertise that transforms project vision into reality',
+    desc: 'Project planning, design, DPR preparation, and technical consultancy for civil engineering initiatives.',
+    bg: 'https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?w=1600&q=80',
   },
-];
+]
+
+export const STATS = [
+  { num: '15+', label: 'Years Experience' },
+  { num: '2',   label: 'Director Founders' },
+  { num: 'PWD & IPH', label: 'Authorized By' },
+  { num: '2026', label: 'Incorporated' },
+]
 
 export const SERVICES = [
   {
-    title: "Structural Engineering",
-    desc: "End-to-end structural design for high-rises, commercial complexes, and industrial facilities. We perform seismic analysis, wind engineering studies, and foundation design using the latest BIM-integrated workflows.",
-    tags: [
-      "High-Rise Design",
-      "Seismic Analysis",
-      "Foundation Design",
-      "BIM Integration",
-    ],
+    title: 'Civil Engineering Works',
+    desc: 'Construction, development, execution, and maintenance of roads, buildings, bridges, and other infrastructure works of every description. Our teams handle full-cycle delivery from groundbreaking through handover.',
+    tags: ['Road Construction', 'Building Development', 'Bridge Engineering', 'Infrastructure Maintenance'],
   },
   {
-    title: "MEP Consultancy",
-    desc: "Integrated mechanical, electrical, plumbing, and fire-fighting systems design for all building typologies. We deliver energy-efficient, code-compliant services that integrate seamlessly with the building fabric.",
-    tags: [
-      "HVAC Systems",
-      "Electrical LV/MV",
-      "Fire Fighting",
-      "Plumbing & Drainage",
-    ],
+    title: 'Government Contracting',
+    desc: 'Authorized service provider to PWD and IPH Department, acting as contractor, developer, or service provider for civil construction and infrastructure projects for government authorities, corporations, institutions, and private entities.',
+    tags: ['PWD Projects', 'IPH Department', 'Public Works', 'Institutional Contracts'],
   },
   {
-    title: "Sustainable & Green Building",
-    desc: "Comprehensive green building advisory from early schematic design through certification. Services include daylight analysis, ECBC compliance, passive cooling strategies, and energy modelling for LEED, GRIHA, and IGBC.",
-    tags: ["LEED Certification", "GRIHA", "Energy Modelling", "Passive Design"],
+    title: 'Infrastructure Development',
+    desc: 'End-to-end project delivery spanning planning, execution, and comprehensive maintenance phases. We manage complex infrastructure assignments from site assessment through completion with full regulatory compliance.',
+    tags: ['Project Planning', 'Site Execution', 'Quality Control', 'Post-Completion Maintenance'],
   },
   {
-    title: "Civil & Infrastructure",
-    desc: "Master planning, road networks, flyovers, storm-water drainage, and utility corridor design for large-scale township and government infrastructure projects across North India.",
-    tags: [
-      "Road Design",
-      "Storm Water",
-      "Master Planning",
-      "Bridge Engineering",
-    ],
+    title: 'Consultancy & Advisory',
+    desc: 'Technical studies, feasibility analysis, and expert guidance for infrastructure initiatives and planning. Our advisory practice draws on 15+ years of field experience across diverse infrastructure domains in Himachal Pradesh.',
+    tags: ['Technical Studies', 'Feasibility Analysis', 'Design Advisory', 'Regulatory Compliance'],
   },
   {
-    title: "Project Management & Supervision",
-    desc: "Our PMC division provides independent supervision, contractor coordination, quality assurance, and cost monitoring throughout the construction lifecycle. We act as Owner's Engineer on critical projects.",
-    tags: [
-      "QA/QC",
-      "Cost Control",
-      "Contractor Coordination",
-      "Owner's Engineer",
-    ],
+    title: 'Detailed Project Reports',
+    desc: 'Preparation of feasibility reports, technical studies, and Detailed Project Reports (DPR) for government-approved infrastructure projects. Our DPRs are comprehensive, defensible, and compliant with all statutory requirements.',
+    tags: ['DPR Preparation', 'Feasibility Reports', 'Technical Studies', 'Government Formats'],
   },
   {
-    title: "Technical Due Diligence",
-    desc: "Condition assessment, structural audits, and peer review for existing structures, real-estate acquisitions, and legal disputes. Clear, defensible technical reports accepted by banks and government bodies.",
-    tags: [
-      "Structural Audit",
-      "Condition Assessment",
-      "Peer Review",
-      "Legal Reports",
-    ],
+    title: 'Project Management & Supervision',
+    desc: 'Professional project management and supervision services for civil engineering projects. We provide on-site coordination, contractor management, quality assurance, and progress monitoring to ensure on-time, on-budget delivery.',
+    tags: ['On-Site Supervision', 'Contractor Coordination', 'QA/QC', 'Progress Monitoring'],
   },
-];
+]
 
-export const KEY_PERSONS = [
+export const BUSINESS_OBJECTS = [
+  'To carry on the business of civil engineering works including construction, development, execution and maintenance of roads, buildings, bridges and other infrastructure works of every description.',
+  'To act as contractors, developers or service providers for civil construction and infrastructure projects for government authorities, corporations, institutions or private entities.',
+  'To provide consultancy and advisory services in the field of civil engineering and infrastructure development, including project planning, design, supervision and technical consultancy.',
+  'To undertake preparation of feasibility reports, technical studies and Detailed Project Reports (DPR) and to provide project management and supervision services for civil engineering projects.',
+  'To carry on all activities related or incidental to civil engineering, infrastructure development and allied consultancy services.',
+]
+
+export const DIRECTORS = [
   {
-    name: "Rajiv Anand",
-    role: "Principal Structural Engineer",
-    quals:
-      "B.Tech (Civil), IIT Delhi · M.Tech (Structures), IISc · 22 yrs experience",
-    bio: "Rajiv leads the structural division with expertise in tall buildings, transfer structures, and performance-based seismic design. He has been responsible for the structural design of over 60 landmark projects.",
+    id: 'ankush',
+    name: 'Ankush Parmar',
+    role: 'Co-Founder & Director',
+    specialization: 'Infrastructure Planning & Project Execution',
+    email: 'ankush62674@gmail.com',
+    phone: '+91 94182 62674',
+    bio: 'Ankush Parmar is a Co-Founder and Infrastructure Specialist at Him Setu Infrastructure Private Limited. With deep expertise in project planning, design, and execution across diverse infrastructure domains, he has spent over 15 years delivering government-contracted civil works across Himachal Pradesh. Ankush leads the firm\'s strategic planning and client engagement functions, bringing a meticulous approach to DPR preparation and government compliance.',
+    bio2: 'His hands-on management philosophy and long-standing relationships with PWD and IPH Department authorities have been central to building Him Setu\'s reputation for reliability and technical rigour. Under his direction, the firm has consistently delivered projects on schedule and within approved budgets.',
+    quals: [
+      ['Specialization', 'Infrastructure Planning and Project Execution'],
+      ['Experience',     '15+ years in government contracting and civil works'],
+      ['Authorizations', 'PWD and IPH Department approved contractor'],
+      ['Role',           'Co-Founder, Primary Promoter, Director'],
+    ],
+    // Dummy avatar photo — replace with real headshot
+    img: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80',
   },
   {
-    name: "Priya Sharma",
-    role: "Director — MEP Services",
-    quals: "B.E. (Mechanical), PEC Chandigarh · MBA, XLRI · 18 yrs experience",
-    bio: "Priya heads MEP consultancy and is known for her expertise in net-zero energy building design. She has led MEP design on LEED Platinum and GRIHA 5-star rated projects.",
+    id: 'rohit',
+    name: 'Rohit Kapil',
+    role: 'Co-Founder & Director',
+    specialization: 'Construction Operations & Quality Management',
+    email: 'rohitkapil.92@gmail.com',
+    phone: '+91 94180 00205',
+    bio: 'Rohit Kapil is a Co-Founder and Construction Expert at Him Setu Infrastructure Private Limited. He specializes in on-ground execution, contractor management, and quality assurance protocols for large-scale civil and infrastructure projects. With over 15 years of active site experience, Rohit brings an operational depth that ensures every project meets the highest construction standards.',
+    bio2: 'Rohit oversees all on-site operations, resource deployment, and quality control processes across the firm\'s project portfolio. His expertise in road construction and bridge engineering has established Him Setu as a preferred contractor for technically demanding government infrastructure assignments in the Himalayan region.',
+    quals: [
+      ['Specialization', 'Construction Operations and Quality Management'],
+      ['Experience',     '15+ years in road construction and infrastructure execution'],
+      ['Authorizations', 'PWD and IPH Department approved contractor'],
+      ['Role',           'Co-Founder, Primary Promoter, Director'],
+    ],
+    // Dummy avatar photo — replace with real headshot
+    img: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80',
   },
-  {
-    name: "Vikram Bose",
-    role: "Head of Sustainability",
-    quals:
-      "B.Arch, SPA Delhi · LEED AP BD+C · GRIHA Evaluator · 15 yrs experience",
-    bio: "Vikram drives the firm's sustainability practice and has personally guided 28 projects to LEED or GRIHA certification. He regularly contributes to BEE and ECBC policy working groups.",
-  },
-  {
-    name: "Anjali Mehta",
-    role: "Senior Civil Engineer",
-    quals: "B.Tech (Civil), NIT Jalandhar · 12 yrs experience",
-    bio: "Anjali specialises in infrastructure master planning and storm-water management for large townships. Her work spans government housing schemes, SEZs, and private residential masterplans.",
-  },
-  {
-    name: "Deepak Rao",
-    role: "Project Management Lead",
-    quals: "B.E. (Civil), VTU · PMP Certified · 16 yrs experience",
-    bio: "Deepak oversees all PMC engagements and brings rigorous cost-monitoring and schedule management to complex multi-contractor builds. He has delivered 14 projects over 1 lakh sq.m.",
-  },
-  {
-    name: "Sunita Kapoor",
-    role: "Technical Due Diligence",
-    quals:
-      "B.Tech (Civil), Thapar University · M.Tech (Geotechnics) · 10 yrs experience",
-    bio: "Sunita leads condition assessments and structural audits across the firm's due diligence practice. Her reports are accepted by leading PSU banks and the National Housing Bank.",
-  },
-];
+]
+
+export const ADVANTAGES = [
+  { num: '01', title: 'Government Credibility',    desc: '15+ years of consistent service delivery to government departments, building long-term institutional trust and reliability.' },
+  { num: '02', title: 'Specialized Expertise',     desc: 'Focused excellence in road construction and infrastructure development with dedicated specialization across civil domains.' },
+  { num: '03', title: 'Director Leadership',        desc: 'Hands-on management by experienced founders ensures quality, accountability, and operational excellence on every project.' },
+  { num: '04', title: 'Multi-Department Approval', desc: 'Recognized contractor across PWD and IPH sectors, demonstrating broad sectoral credibility and compliance.' },
+  { num: '05', title: 'Infrastructure Focus',       desc: 'Dedicated specialization in infrastructure versus generalist competitors ensures superior expertise delivery.' },
+  { num: '06', title: 'Experience-Backed Trust',   desc: 'Proven track record across multiple large-scale projects demonstrating consistent capability and performance.' },
+]
+
+export const SERVICE_TIERS = [
+  { num: '01', title: 'Tier 1 — Strategic Services',    desc: 'Project planning, design, feasibility studies, Detailed Project Reports, and technical consultancy support.' },
+  { num: '02', title: 'Tier 2 — Core Execution',        desc: 'Civil construction, infrastructure development, and project supervision across roads, buildings, and bridges.' },
+  { num: '03', title: 'Tier 3 — Operational Delivery',  desc: 'Maintenance services, contractor operations, and on-site project management for government and private entities.' },
+  { num: '04', title: 'Tier 4 — Support Functions',     desc: 'Advisory services, technical guidance, and allied consultancy in civil engineering and infrastructure.' },
+]
+
+export const LIFECYCLE = [
+  { num: '01', phase: 'Planning & Design',          desc: 'Feasibility studies, site assessment, design preparation, and DPR development with stakeholder consultation throughout.' },
+  { num: '02', phase: 'Technical Consultancy',      desc: 'Pre-execution planning, risk assessment, technical advisory, and regulatory compliance alignment with standards.' },
+  { num: '03', phase: 'Construction & Execution',   desc: 'On-site project delivery, resource management, quality assurance, and government supervision coordination.' },
+  { num: '04', phase: 'Supervision & Maintenance',  desc: 'Project monitoring, quality control, defect rectification, and post-completion maintenance services delivery.' },
+  { num: '05', phase: 'Closure & Documentation',    desc: 'Project handover, documentation finalization, and knowledge transfer to client departments upon completion.' },
+]
+
+export const CLIENTS = [
+  { title: 'Government Authorities', desc: 'PWD, IPH, and state/central departments. Primary client base with 15+ year established relationship.' },
+  { title: 'Corporations & Institutions', desc: 'Private enterprises and institutional organizations requiring comprehensive infrastructure services and solutions.' },
+  { title: 'Public Entities', desc: 'Infrastructure development organizations and civic bodies serving public sector development needs.' },
+  { title: 'Private Developers', desc: 'Private sector clients requiring civil construction, advisory services, and technical expertise.' },
+  { title: 'Multi-Sector Reach', desc: 'Specialized service delivery capability across diverse sectors and industries for varied client needs.' },
+]
 
 export const PROJECTS = [
-  {
-    name: "Bandra Kurla Corporate Park",
-    type: "Commercial",
-    location: "Mumbai",
-    year: "2022",
-    services: "Structural + MEP",
-    img: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=700&q=80",
-    category: "Commercial",
-  },
-  {
-    name: "Emirates Bay Hotel",
-    type: "Hospitality",
-    location: "Dubai, UAE",
-    year: "2021",
-    services: "Structural",
-    img: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=700&q=80",
-    category: "Hospitality",
-  },
-  {
-    name: "Ramanujan IT City Phase II",
-    type: "Institutional",
-    location: "Chennai",
-    year: "2020",
-    services: "MEP + Sustainability",
-    img: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=700&q=80",
-    category: "Institutional",
-  },
-  {
-    name: "UB City Tower B",
-    type: "Mixed-Use",
-    location: "Bengaluru",
-    year: "2019",
-    services: "Structural + PMC",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/UBtowers.jpg/330px-UBtowers.jpg",
-    category: "Commercial",
-  },
-  {
-    name: "ITC Rajarhat Centre",
-    type: "Green Building",
-    location: "Kolkata",
-    year: "2021",
-    services: "Sustainability + MEP",
-    img: "https://www.morphogenesis.org/wp-content/uploads/2018/11/13.jpg",
-    category: "Green Building",
-  },
-  {
-    name: "HUDA Township Master Plan",
-    type: "Infrastructure",
-    location: "Gurugram",
-    year: "2023",
-    services: "Civil + Master Planning",
-    img: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=700&q=80",
-    category: "Infrastructure",
-  },
-  {
-    name: "Indraprastha Sports Complex",
-    type: "Institutional",
-    location: "New Delhi",
-    year: "2018",
-    services: "Structural",
-    img: "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=700&q=80",
-    category: "Institutional",
-  },
-  {
-    name: "Planet Oasis Residences",
-    type: "Residential",
-    location: "Navi Mumbai",
-    year: "2022",
-    services: "Structural + MEP",
-    img: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=700&q=80",
-    category: "Residential",
-  },
-];
+  { name: 'PWD Road Strengthening Project', type: 'Road Construction', location: 'Shimla District, HP', year: '2024', services: 'Civil Execution + Supervision', img: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=700&q=80', category: 'Road' },
+  { name: 'IPH Water Supply Infrastructure', type: 'Infrastructure', location: 'Mandi District, HP', year: '2023', services: 'Civil Works + Project Management', img: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=700&q=80', category: 'Infrastructure' },
+  { name: 'Rural Bridge Construction', type: 'Bridge Engineering', location: 'Kullu, HP', year: '2023', services: 'Structural Civil Works', img: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=700&q=80', category: 'Bridge' },
+  { name: 'Government Building Renovation', type: 'Building', location: 'Kangra, HP', year: '2022', services: 'Construction + Supervision', img: 'https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?w=700&q=80', category: 'Building' },
+  { name: 'Hill Road Development', type: 'Road Construction', location: 'Chamba District, HP', year: '2022', services: 'Civil Execution + DPR', img: 'https://images.unsplash.com/photo-1562271234-4cd2bfe7eef2?w=700&q=80', category: 'Road' },
+  { name: 'Infrastructure Maintenance Contract', type: 'Maintenance', location: 'Solan, HP', year: '2021', services: 'Maintenance + Advisory', img: 'https://images.unsplash.com/photo-1593697909822-5b4d9ef7bc16?w=700&q=80', category: 'Infrastructure' },
+]
 
 export const JOBS = [
-  {
-    id: 1,
-    title: "Senior Structural Engineer",
-    dept: "Structural",
-    location: "Chandigarh",
-    type: "Full-time",
-    experience: "6–10 years",
-    status: "open",
-    desc: "Lead structural design on commercial high-rise and mixed-use projects. Proficiency in STAAD.Pro, ETABS, and BIM workflows required.",
-    reqs: [
-      "B.Tech / M.Tech in Civil Engineering",
-      "Strong knowledge of IS codes",
-      "ETABS / STAAD.Pro expertise",
-      "Experience with BIM / Revit Structure",
-    ],
-  },
-  {
-    id: 2,
-    title: "MEP Design Engineer",
-    dept: "MEP",
-    location: "Chandigarh",
-    type: "Full-time",
-    experience: "3–6 years",
-    status: "open",
-    desc: "Design mechanical, plumbing, and firefighting systems for commercial projects. AutoCAD MEP and REVIT MEP experience preferred.",
-    reqs: [
-      "B.E. / B.Tech in Mechanical or Electrical Engineering",
-      "Familiarity with NBC 2016",
-      "AutoCAD MEP / Revit MEP",
-      "LEED knowledge is a plus",
-    ],
-  },
-  {
-    id: 3,
-    title: "Sustainability Consultant",
-    dept: "Green Building",
-    location: "Delhi / Remote",
-    type: "Full-time",
-    experience: "4–8 years",
-    status: "open",
-    desc: "Drive LEED and GRIHA certification for current projects. Energy modelling using eQuest or IES-VE required.",
-    reqs: [
-      "LEED AP or GRIHA Evaluator certification",
-      "Energy modelling (eQuest / IES-VE)",
-      "Report writing in English",
-      "Collaboration with MEP and architecture teams",
-    ],
-  },
-  {
-    id: 4,
-    title: "Junior Civil Engineer",
-    dept: "Infrastructure",
-    location: "Chandigarh",
-    type: "Full-time",
-    experience: "0–3 years",
-    status: "open",
-    desc: "Support civil and infrastructure project design including road alignment, storm-water drainage, and site grading.",
-    reqs: [
-      "B.Tech in Civil Engineering",
-      "AutoCAD proficiency",
-      "Knowledge of IRC codes",
-      "Willingness to travel to project sites",
-    ],
-  },
-  {
-    id: 5,
-    title: "Business Development Manager",
-    dept: "Corporate",
-    location: "Delhi",
-    type: "Full-time",
-    experience: "5–8 years",
-    status: "open",
-    desc: "Identify and develop new client relationships in real estate, hospitality, and government sectors across North India.",
-    reqs: [
-      "Background in architecture, engineering, or real estate",
-      "Strong English communication skills",
-      "Existing client network is preferred",
-      "MBA is a plus",
-    ],
-  },
-];
+  { id: 1, title: 'Site Engineer — Civil', dept: 'Civil', location: 'Shimla / Field Sites, HP', type: 'Full-time', experience: '2–5 years', status: 'open', desc: 'Lead on-site civil engineering activities for road and infrastructure projects across Himachal Pradesh. Knowledge of hill road construction and PWD standards required.', reqs: ['B.Tech / B.E. in Civil Engineering', 'Knowledge of PWD and IRC standards', 'AutoCAD proficiency', 'Willingness to work at remote hill sites'] },
+  { id: 2, title: 'Project Manager — Infrastructure', dept: 'Management', location: 'Himachal Pradesh', type: 'Full-time', experience: '5–10 years', status: 'open', desc: 'Oversee government infrastructure projects end-to-end including contractor coordination, quality assurance, and government liaison.', reqs: ['B.Tech Civil + MBA or PMP preferred', 'Experience with PWD/IPH project formats', 'Strong communication and reporting skills', 'Government project management background'] },
+  { id: 3, title: 'DPR Specialist', dept: 'Consultancy', location: 'Shimla, HP', type: 'Full-time', experience: '3–7 years', status: 'open', desc: 'Prepare Detailed Project Reports, feasibility studies, and technical documentation for government infrastructure schemes.', reqs: ['B.Tech in Civil Engineering', 'Experience preparing government DPRs', 'Strong technical writing in English and Hindi', 'Familiarity with PMGSY, NABARD, and state schemes'] },
+  { id: 4, title: 'Junior Civil Engineer', dept: 'Civil', location: 'Field Sites, HP', type: 'Full-time', experience: '0–2 years', status: 'open', desc: 'Assist senior engineers in construction supervision, quality checks, and site documentation for road and building projects.', reqs: ['B.Tech in Civil Engineering', 'Basic AutoCAD and surveying skills', 'Physical fitness for field work', 'Local Himachal Pradesh candidates preferred'] },
+]
 
 export const NEWSLETTERS = [
-  {
-    vol: "Vol. 12 · 2024",
-    title: "The Future of Passive Design in Indian High-Rises",
-    date: "November 2024",
-    summary:
-      "This edition explores passive cooling strategies, facade engineering, and shading systems being adopted in contemporary high-rise developments across Tier-1 Indian cities.",
-    img: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=400&q=80",
-  },
-  {
-    vol: "Vol. 11 · 2024",
-    title: "GRIHA vs LEED: A Practitioner's Comparison",
-    date: "July 2024",
-    summary:
-      "Our sustainability team breaks down the practical differences between GRIHA and LEED certification for developers and project teams navigating green building mandates.",
-    img: "https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?w=400&q=80",
-  },
-  {
-    vol: "Vol. 10 · 2023",
-    title: "Seismic Design for Zone IV: Lessons from the Field",
-    date: "December 2023",
-    summary:
-      "Drawing from 15 years of structural work in Zone IV regions, our lead engineers share hard-won lessons in performance-based seismic design and foundation systems.",
-    img: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=400&q=80",
-  },
-  {
-    vol: "Vol. 9 · 2023",
-    title: "MEP Coordination in BIM: Reducing Clash Count",
-    date: "June 2023",
-    summary:
-      "A behind-the-scenes look at our MEP BIM coordination workflow that reduced field clashes by 60% on the Ramanujan IT City Phase II project.",
-    img: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=400&q=80",
-  },
-  {
-    vol: "Vol. 8 · 2022",
-    title: "Net-Zero Buildings: From Aspiration to Reality",
-    date: "November 2022",
-    summary:
-      "What does it actually take to design a net-zero energy building in India's climate? Our team walks through the integrated design process on a 45,000 sq.m commercial campus.",
-    img: "https://images.unsplash.com/photo-1593697909822-5b4d9ef7bc16?w=400&q=80",
-  },
-  {
-    vol: "Vol. 7 · 2022",
-    title: "Post-Pandemic Office: Engineering Wellbeing",
-    date: "March 2022",
-    summary:
-      "How COVID-19 changed our approach to IAQ, ventilation rates, touchless fixtures, and biophilic design in commercial office buildings.",
-    img: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400&q=80",
-  },
-];
+  { vol: 'Vol. 1 · 2026', title: 'Infrastructure Development in the Himalayan Region', date: 'March 2026', summary: 'Our inaugural edition explores the unique challenges of civil construction in mountainous terrain — from slope stability and drainage design to extreme weather contingency planning.', img: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=400&q=80' },
+  { vol: 'Vol. 2 · 2026', title: 'PWD & IPH: Navigating Government Contracting', date: 'Upcoming', summary: 'A practitioner\'s guide to bidding, compliance, and project execution under PWD and IPH department frameworks in Himachal Pradesh. Coming soon.', img: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=400&q=80' },
+]
