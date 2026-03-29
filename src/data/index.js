@@ -18,12 +18,12 @@ export const SLIDES = [
     tag: "Civil Engineering Works",
     title:
       "Building roads, bridges, and infrastructure across Himachal Pradesh",
-    desc: "Authorized PWD and IPH contractor with 15+ years of proven government project delivery.",
+    desc: "Authorized PWD and NHAI contractor with 15+ years of proven government project delivery.",
     bg: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1600&q=80",
   },
   {
     tag: "Government Contracting",
-    title: "Trusted partner of PWD and IPH for public infrastructure",
+    title: "Trusted partner of PWD and NHAI for public infrastructure",
     desc: "Director-led execution with rigorous quality assurance and timeline adherence on every project.",
     bg: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1600&q=80",
   },
@@ -44,7 +44,7 @@ export const SLIDES = [
 export const STATS = [
   { num: "15+", label: "Years Experience" },
   { num: "2", label: "Director Founders" },
-  { num: "PWD & IPH", label: "Authorized By" },
+  { num: "PWD & NHAI", label: "Authorized By" },
   { num: "2026", label: "Incorporated" },
 ];
 
@@ -61,10 +61,10 @@ export const SERVICES = [
   },
   {
     title: "Government Contracting",
-    desc: "Authorized service provider to PWD and IPH Department, acting as contractor, developer, or service provider for civil construction and infrastructure projects for government authorities, corporations, institutions, and private entities.",
+    desc: "Authorized service provider to PWD and NHAI Department, acting as contractor, developer, or service provider for civil construction and infrastructure projects for government authorities, corporations, institutions, and private entities.",
     tags: [
       "PWD Projects",
-      "IPH Department",
+      "NHAI Department",
       "Public Works",
       "Institutional Contracts",
     ],
@@ -128,11 +128,11 @@ export const DIRECTORS = [
     email: "ankush62674@gmail.com",
     phone: "+91 94182 62674",
     bio: "Ankush Parmar is a Co-Founder and Infrastructure Specialist at Him Setu Infrastructure Private Limited. With deep expertise in project planning, design, and execution across diverse infrastructure domains, he has spent over 15 years delivering government-contracted civil works across Himachal Pradesh. Ankush leads the firm's strategic planning and client engagement functions, bringing a meticulous approach to DPR preparation and government compliance.",
-    bio2: "His hands-on management philosophy and long-standing relationships with PWD and IPH Department authorities have been central to building Him Setu's reputation for reliability and technical rigour. Under his direction, the firm has consistently delivered projects on schedule and within approved budgets.",
+    bio2: "His hands-on management philosophy and long-standing relationships with PWD and NHAI Department authorities have been central to building Him Setu's reputation for reliability and technical rigour. Under his direction, the firm has consistently delivered projects on schedule and within approved budgets.",
     quals: [
       ["Specialization", "Infrastructure Planning and Project Execution"],
       ["Experience", "15+ years in government contracting and civil works"],
-      ["Authorizations", "PWD and IPH Department approved contractor"],
+      ["Authorizations", "PWD and NHAI Department approved contractor"],
       ["Role", "Co-Founder, Primary Promoter, Director"],
     ],
     // Dummy avatar photo — replace with real headshot
@@ -153,7 +153,7 @@ export const DIRECTORS = [
         "Experience",
         "15+ years in road construction and infrastructure execution",
       ],
-      ["Authorizations", "PWD and IPH Department approved contractor"],
+      ["Authorizations", "PWD and NHAI Department approved contractor"],
       ["Role", "Co-Founder, Primary Promoter, Director"],
     ],
     // Dummy avatar photo — replace with real headshot
@@ -180,7 +180,7 @@ export const ADVANTAGES = [
   {
     num: "04",
     title: "Multi-Department Approval",
-    desc: "Recognized contractor across PWD and IPH sectors, demonstrating broad sectoral credibility and compliance.",
+    desc: "Recognized contractor across PWD and NHAI sectors, demonstrating broad sectoral credibility and compliance.",
   },
   {
     num: "05",
@@ -248,7 +248,7 @@ export const LIFECYCLE = [
 export const CLIENTS = [
   {
     title: "Government Authorities",
-    desc: "PWD, IPH, and state/central departments. Primary client base with 15+ year established relationship.",
+    desc: "PWD, NHAI, and state/central departments. Primary client base with 15+ year established relationship.",
   },
   {
     title: "Corporations & Institutions",
@@ -279,7 +279,7 @@ export const PROJECTS = [
     category: "Road",
   },
   {
-    name: "IPH Water Supply Infrastructure",
+    name: "NHAI Water Supply Infrastructure",
     type: "Infrastructure",
     location: "Mandi District, HP",
     year: "2023",
@@ -353,7 +353,7 @@ export const JOBS = [
     desc: "Oversee government infrastructure projects end-to-end including contractor coordination, quality assurance, and government liaison.",
     reqs: [
       "B.Tech Civil + MBA or PMP preferred",
-      "Experience with PWD/IPH project formats",
+      "Experience with PWD/NHAI project formats",
       "Strong communication and reporting skills",
       "Government project management background",
     ],
@@ -403,10 +403,10 @@ export const NEWSLETTERS = [
   },
   {
     vol: "Vol. 2 · 2026",
-    title: "PWD & IPH: Navigating Government Contracting",
+    title: "PWD & NHAI: Navigating Government Contracting",
     date: "Upcoming",
     summary:
-      "A practitioner's guide to bidding, compliance, and project execution under PWD and IPH department frameworks in Himachal Pradesh. Coming soon.",
+      "A practitioner's guide to bidding, compliance, and project execution under PWD and NHAI department frameworks in Himachal Pradesh. Coming soon.",
     img: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=400&q=80",
   },
 ];
