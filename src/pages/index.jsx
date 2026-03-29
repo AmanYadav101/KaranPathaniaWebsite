@@ -220,7 +220,7 @@ export function AboutPage() {
               road construction, and allied civil works across Himachal Pradesh.
             </p>
             <p>
-              We are an authorized service provider to the PWD and IPH
+              We are an authorized service provider to the PWD and NHAI
               Department, ensuring compliance with public sector infrastructure
               standards, government procurement guidelines, and all applicable
               statutory requirements.
@@ -236,7 +236,7 @@ export function AboutPage() {
               {[
                 ["Incorporated", "19 March 2026"],
                 ["Entity Type", "Private Limited Company"],
-                ["Authorization", "PWD & IPH Department"],
+                ["Authorization", "PWD & NHAI Department"],
                 ["Experience", "15+ Combined Years"],
               ].map(([l, v]) => (
                 <div
@@ -318,7 +318,7 @@ export function AboutPage() {
             ],
             [
               "Authorized Departments",
-              "Approved vendor for PWD and IPH Department contracts, enabling execution of government-sanctioned projects.",
+              "Approved vendor for PWD and NHAI Department contracts, enabling execution of government-sanctioned projects.",
             ],
           ].map(([title, desc]) => (
             <div key={title} className="info-card">
@@ -344,7 +344,7 @@ export function AboutPage() {
               items: [
                 "15+ years of proven government contracting experience",
                 "Director-led hands-on management approach",
-                "Government department approvals (PWD/IPH)",
+                "Government department approvals (PWD/NHAI)",
                 "Comprehensive service portfolio covering multiple infrastructure domains",
                 "Proven track record in road and infrastructure construction projects",
               ],
@@ -737,7 +737,7 @@ export function ContactPage() {
                   label: "Headquarters",
                   title: "Himachal Pradesh, India",
                   detail:
-                    "Incorporated 19.03.2026 as Private Limited entity\nPWD & IPH Authorized Contractor",
+                    "Incorporated 19.03.2026 as Private Limited entity\nPWD & NHAI Authorized Contractor",
                 },
               ].map((c) => (
                 <div className="info-card" key={c.label}>
@@ -989,7 +989,7 @@ export function CareersPage() {
             <p>
               We are a young, growing company with big ambitions. Joining early
               means growing with us as we expand our project portfolio across
-              PWD, IPH, and private sector contracts in Himachal Pradesh and
+              PWD, NHAI, and private sector contracts in Himachal Pradesh and
               beyond.
             </p>
             <p style={{ marginTop: 16 }}>
@@ -1004,7 +1004,7 @@ export function CareersPage() {
             [
               "🏗️",
               "Real Projects",
-              "Work on active government PWD and IPH infrastructure contracts.",
+              "Work on active government PWD and NHAI infrastructure contracts.",
             ],
             [
               "📋",
